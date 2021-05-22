@@ -1,0 +1,72 @@
+.elementor-2
+  .elementor-element.elementor-element-3b1402e
+  > .elementor-background-overlay {
+  background-color: white;
+  background-image: none;
+}
+.fix-jetzt {
+  position: fixed;
+  z-index: 10000;
+  bottom: 40px;
+  right: 40px;
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+.btn-primary {
+  background-color: #ff1616;
+  border-color: #ff1616;
+}
+.btn-primary:hover {
+  background-color: #ff1616;
+}
+.btn-primary:focus {
+  background-color: #ff1616;
+}
+.nav-item {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+  flex-wrap: nowrap;
+}
+
+/* Heart beat animation */
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
+.primary-text {
+  color: var(--e-global-color-primary);
+}
+.secondary-text {
+  color: var(--e-global-color-text);
+}
+#more {
+  display: none;
+}
+.elementor-2
+  .elementor-element.elementor-element-cd5ac0f
+  .elementor-posts-container
+  .elementor-post__thumbnail {
+  padding-bottom: 300px !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(LeagueSpartan-VF.woff);
+}
+
+* {
+  font-family: myFirstFont !important;
+}
+
+#test-grunde {
+  letter-spacing: 1px;
+}
